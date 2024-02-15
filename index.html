@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ClimApp</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Ingresa una ubicación" id="1">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-found">
+            <img src="https://cdni.iconscout.com/illustration/premium/thumb/not-found-7621859-6167013.png?f=webp" width="300px" height="250px">
+            <p>Oops! Intenta de nuevo, ubicación inválida</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+
+        <div class="weather-details">
+
+            <div class="lattitude">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Latitud</p>
+                </div>
+            </div>
+
+            <div class="longitude">
+                <i class="fa-solid fa-map-location"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Longitud</p>
+                </div>
+            </div>
+
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humedad</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Viento</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="weather.js"></script>
+</body>
+</html>
