@@ -25,12 +25,15 @@ body {
     height: 18%;
     min-height: min-content;
     max-height: 80vh;
-    background: #f9fbff;
+    background: #d1e8f1;
     padding: 28px 32px;
     overflow: hidden;
     border-radius: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transition: 0.6s ease-out;
+    border-style:double;
+    border-color: #81c4e3;
+    border-width: 1vh;
 }
 
 .search-box {
@@ -42,19 +45,19 @@ body {
 
 .search-box input {
     color: rgb(102, 100, 100);
-    background-color: #f9fbff;
+    background: #d1e8f1;
     width: 80%;
     font-size: 24px;
     font-weight: 500;
     padding-left: 16px;
+    border-radius: 4vw;
     text-transform: uppercase;
+    transition: 0.4s ease-in-out;
 }
 
 .search-box input:hover{
-    color: #373737;
-    background: #d7f0fc;
-    border-radius: 3%;
-    width: 77%;
+    color: #f9e9e9;
+    background: #3e5058;
 }
 
 .search-box input::placeholder {
@@ -69,7 +72,7 @@ body {
     width: 50px;
     height: 50px;
     color: rgb(57, 56, 56);
-    background: #d7f0fc;
+    background: #b0ddf2;
     border-radius: 45%;
     font-size: 22px;
     transition: 0.4s ease;
@@ -77,7 +80,7 @@ body {
 
 .search-box button:hover{
     color: #fff;
-    background: #06283D;
+    background: #072c43;
 }
 
 .search-box i {
